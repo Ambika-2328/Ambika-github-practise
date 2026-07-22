@@ -8,7 +8,7 @@ on:
    paths: "*.py"
 
 jobs:
-  code:
+  code-linting:
     runs-on: ubuntu-latest
     steps:
      - name: Checkout/Clone the code 
