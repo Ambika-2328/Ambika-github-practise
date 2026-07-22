@@ -3,7 +3,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 if ambu
 nont:
-    go: 
+    go: ..
 
 @app.route('/')
 def hello_world():
